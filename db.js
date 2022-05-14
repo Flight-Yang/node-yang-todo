@@ -1,7 +1,7 @@
 const homedir = require('os').homedir();
 const p = require('path');
 const fs = require('fs');
-const dbPath = p.join(homedir, '.todo') //合并数据库文件路径
+const dbPath = p.join(homedir, '.todo') //合并数据库文件路径，
 
 const db = {
     read(path = dbPath) {
